@@ -32,7 +32,7 @@ gem 'jquery-rails', '2.0.2'
 gem 'execjs'
 
 # Gems on Linus/Mac
-#gem 'therubyracer'
+gem 'therubyracer'
 
 
 group :test do
@@ -45,8 +45,8 @@ group :test do
 
 
 # Test gems on Linux
-#  gem 'rb-inotify', '0.8.8'
-#  gem 'libnotify', '0.5.9'
+  gem 'rb-inotify', '0.8.8'
+  gem 'libnotify', '0.5.9'
 
 # Test gems on Macintosh OS X
 #  gem 'selenium-webdriver', '~> 2.22.0'
@@ -54,13 +54,13 @@ group :test do
 #  gem 'growl', '1.0.3'
 
 # Test gems on Windows
- gem 'rb-fchange', '0.0.5'
- gem 'rb-notifu', '0.0.4'
- gem 'win32console', '1.3.0'
+# gem 'rb-fchange', '0.0.5'
+# gem 'rb-notifu', '0.0.4'
+# gem 'win32console', '1.3.0'
 end
 
 group :production do
-  gem 'therubyracer'
+#  gem 'therubyracer'
   gem 'pg', '0.12.2'
 end
 
